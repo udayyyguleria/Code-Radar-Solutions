@@ -19,8 +19,14 @@ int main() {
     }
 
     else if (z=='/'){
-        r=x/y;
-        printf("",r);
+        if (y != 0){
+            r=x/y;
+            printf("",r)
+        }
+        else{
+            printf("invalid")
+        }
+
     }
     
     return 0;
