@@ -3,7 +3,7 @@ int main() {
     char x;
     scanf(" %c",&x);
 
-    if (x=="R"){
+    if (x=='R'){
         printf('Stop');
     }
 
@@ -11,12 +11,12 @@ int main() {
         printf("Go");
     }
 
-    else if (x=="Y"){
-        printf('Slow Down');
+    else if (x=='Y'){
+        printf("Slow Down");
     }
 
     else{
-        printf('Invalid input);
+        printf("Invalid input");
     }
 
     return 0;
