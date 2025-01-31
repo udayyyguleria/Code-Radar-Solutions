@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    char x ;
+    char x;
     scanf(" %c",&x);
 
     if (x=="R"){
