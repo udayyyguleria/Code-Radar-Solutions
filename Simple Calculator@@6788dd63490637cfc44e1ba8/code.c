@@ -5,23 +5,23 @@ int main() {
     scanf("%d %d %c",&x ,&y ,&z);
     if (z=='+'){
         r=x+y;
-        printf("",r);
+        printf("%d",r);
     }
 
     else if(z=='-'){
         r=x-y;
-        printf("",r);
+        printf("%d",r);
     }
 
     else if(z=='*'){
         r=x*y;
-        printf("",r);
+        printf("%d",r);
     }
 
     else if (z=='/'){
         if (y != 0){
             r=x/y;
-            printf("",r);
+            printf("%d",r);
         }
         else{
             printf("invalid");
