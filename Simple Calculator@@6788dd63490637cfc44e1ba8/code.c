@@ -24,7 +24,7 @@ int main() {
             printf("%d",r);
         }
         else{
-            printf("invalid");
+            printf("error");
         }
 
     }
