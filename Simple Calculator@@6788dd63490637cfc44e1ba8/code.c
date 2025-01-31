@@ -21,10 +21,10 @@ int main() {
     else if (z=='/'){
         if (y != 0){
             r=x/y;
-            printf("",r)
+            printf("",r);
         }
         else{
-            printf("invalid")
+            printf("invalid");
         }
 
     }
