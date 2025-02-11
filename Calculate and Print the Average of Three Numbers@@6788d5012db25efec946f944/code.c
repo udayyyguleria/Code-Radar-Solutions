@@ -8,7 +8,7 @@ int main(){
 
     float avg = a+b+c/3;
 
-    printf(".2f%f", avg);
+    printf("%f", avg);
 
     return 0;
 }
