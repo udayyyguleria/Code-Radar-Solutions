@@ -6,7 +6,7 @@ int main() {
 
     scanf("%s %s", &n_1 , &n_2);
 
-    printf("Ypu entered: %s and %s" , n_1 , n_2);
+    printf("You entered: %s and %s" , n_1 , n_2);
     
     return 0;
 }
