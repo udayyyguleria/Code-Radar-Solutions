@@ -6,9 +6,9 @@ int main(){
 
     scanf("%d %d %d", &a , &b , &c);
 
-    int avg = a+b+c/3;
+    float avg = a+b+c/3;
 
-    printf("%d", avg);
+    printf("%f.2f", avg);
 
     return 0;
 }
