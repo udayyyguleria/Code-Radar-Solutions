@@ -5,9 +5,9 @@
 int main() {
    float kuley;
 
-   scanf(" %f", &kuley);
+   scanf(" %lf", &kuley);
 
-   printf("You entered: %.4f",kuley);
+   printf("You entered: %.4lf",kuley);
 
    return 0;
 }
