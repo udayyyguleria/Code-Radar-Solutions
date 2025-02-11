@@ -3,7 +3,7 @@
 
 
 int main() {
-   float kuley;
+   double kuley;
 
    scanf(" %lf", &kuley);
 
