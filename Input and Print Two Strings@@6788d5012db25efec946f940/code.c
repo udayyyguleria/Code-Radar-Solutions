@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    char n_1[50];
-    char n_2[50];
+    char wrd_1[100];
+    char wrd_2[100];
 
-    scanf("%s %s", &n_1 , &n_2);
-
-    printf("You entered: %s and %s" , n_1 , n_2);
-    
+    scanf("%s %s",&wrd_1 , &wrd_2);
+    printf("You entered: %s and %s",wrd_1,wrd_2);
     return 0;
 }
