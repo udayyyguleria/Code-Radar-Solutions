@@ -33,7 +33,7 @@ else if(day == 7){
 }
 
 else {
-    printf("Invalid")
+    printf("Invalid");
 }
 
 return 0;
