@@ -21,7 +21,7 @@ else if (day==4){
 }
 
 else if (day ==5){
-    printf("Friday")
+    printf("Friday");
 }
 
 else if (day==6){
