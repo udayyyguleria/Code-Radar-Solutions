@@ -5,9 +5,9 @@ int main(){
     scanf("%d",&a);
 
     if(a%5 && a%11){
-        printf("Divisble")
+        printf("Divisble");
     }
     else{
-        printf("Not Divisble")
+        printf("Not Divisble");
     }
 }
